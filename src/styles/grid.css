@@ -1,0 +1,31 @@
+.grid {
+    width: 150px;
+    line-height: 0;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box {
+    display: inline-block;       
+    border: 1px solid black;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    }
+  
+  .off {
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .on {
+    background-color: green;
+  }
+    
+  .box:hover { 
+    background: rgb(0, 87, 0);
+  }
+  
+  .center {
+    margin: auto;
+    display: table;
+    margin-top: 10px;
+  }

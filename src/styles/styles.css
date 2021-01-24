@@ -1,0 +1,45 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #6b0237;
+}
+
+#root {
+    background-color: #6b0237;
+}
+
+h1, h2 {
+    color: white;
+}
+
+#info {
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+}
+
+#info:link {
+    text-decoration: none;
+    color: white;
+}
+
+#info:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#info:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#info:active {
+    text-decoration: underline;
+    color: white;
+}
+
+#separator {
+    border: 1px solid white;
+    border-radius: 10px;
+}

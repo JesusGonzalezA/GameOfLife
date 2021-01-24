@@ -1,0 +1,13 @@
+.btn {
+    margin-right: 10px;
+}
+
+#controllers-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#pause-button {
+    margin-right: auto;
+}
