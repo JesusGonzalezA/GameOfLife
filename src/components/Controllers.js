@@ -54,6 +54,7 @@ export const Controllers = () => {
 
         const aspect = key.split('x');
 
+        handleReset();
         dispatch( setGridSize( Number(aspect[0]), Number(aspect[1])) );
     }
 
