@@ -23,6 +23,10 @@ export const Controllers = () => {
         setIntervalId(setInterval(play, speed))
     }
 
+    const handleNextGeneration = () => {
+        play();
+    }
+
     
     const handlePause = () => {
         if (intervalId === null) return;
@@ -73,6 +77,13 @@ export const Controllers = () => {
                 id="pause-button"
             >
                 Pause <i className="fas fa-pause"></i>
+            </Button>
+
+            <Button 
+                onClick={ handleNextGeneration }
+                variant="success"
+            >
+                Next Generation <i className="fas fa-angle-double-right"></i>
             </Button>
             
 
