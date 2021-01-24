@@ -4,6 +4,7 @@ The Game of life is a popular cellular automaton. It is Turing complete and can 
 
 You can interact with the game by drawing an initial state or using a seed, which automatically generates a random initial state. Just it, the evolution will do the rest.
 
+https://jesusgonzaleza.github.io/GameOfLife/
 ![](demo/demo.gif)
 
 ## Rules
